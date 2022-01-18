@@ -44,9 +44,7 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx,json,css,scss,md,yml,yaml}": [
-      "prettier --write"
-    ]
+    "**/*.{js,jsx,ts,tsx,json,css,scss,md,yml,yaml}": "prettier --write"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
